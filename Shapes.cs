@@ -10,6 +10,7 @@ abstract class Shapes
     protected float angle = 0;
     protected float scale = 1;
     protected Vector2 position = Vector2.Zero;
+    internal Color4 Color;
 
     public Shapes(Color4 color)
     {
